@@ -8,110 +8,102 @@
 </head>
 
 <body>
-    <header>
-        <h1>Vanessa Dumlao - Portfolio </h1>
-        <p class="subtitle">
-            My name is Vanessa Dumlao and I am a Computer Science student at the University of Washington! 
-            I’m passionate about front-end development, UI design, and creating intuitive, visually engaging digital 
-            experiences. This portfolio showcases my work as I continue growing as a developer who loves bringing ideas to life.
-        </p>
-    </header>
 
-    <main>
+    <!-- ===== MOBILE MENU BUTTON ===== -->
+    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
 
-        <!-- ABOUT ME -->
-        <section id="about">
-            <h2>About Me </h2>
+    <!-- ===== SIDEBAR ===== -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Vanessa Dumlao</h2>
+            <p>Computer Science Student</p>
+        </div>
+
+        <ul class="sidebar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn</a>
+            <a href="YOUR_RESUME_LINK" target="_blank">Resume</a>
+        </div>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="main-content">
+
+        <!-- HOME -->
+        <section id="home">
+            <h1>Vanessa Dumlao - Portfolio 👋</h1>
+            <p class="tagline">Front-End Development • UI Design • Problem Solving</p>
+
             <p>
-                I am pursuing a B.A. in Computer Science at the University of Washington with a minor in Innovation and Design. 
+                My name is Vanessa Dumlao and I am a Computer Science student at the University of Washington!
+                I’m passionate about front-end development, UI design, and creating intuitive, visually engaging digital
+                experiences. This portfolio showcases my work as I continue growing as a developer who loves bringing
+                ideas to life on the screen.
+            </p>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me 🖤</h2>
+            <p>
+                I am pursuing a B.A. in Computer Science at the University of Washington with a minor in Innovation and Design.
                 I enjoy solving problems through clean, thoughtful code and creating tools that improve everyday workflows.
             </p>
         </section>
 
         <!-- PROJECTS -->
         <section id="projects">
-            <h2>Projects </h2>
+            <h2>Projects 📝</h2>
 
             <div class="project">
                 <h3>Student Grade Tracker</h3>
                 <p><strong>Tech:</strong> Java</p>
+
                 <p>
                     A command-line tool for storing student data, validating inputs, and calculating averages.
                 </p>
+
                 <ul>
                     <li>Built data structures for storing student records</li>
                     <li>Added input validation for reliability</li>
                     <li>Strengthened debugging techniques through iterative testing</li>
                 </ul>
-                <p><em>Work in progress...</em></p>
+
+                <em>Work in progress...</em>
             </div>
         </section>
 
         <!-- SKILLS -->
         <section id="skills">
-            <h2>Skills </h2>
-            <ul>
-                <li><strong>Languages:</strong> Java, HTML/CSS</li>
-                <li><strong>Software Tools/Frameworks:</strong> GitHub, IntelliJ IDEA</li>
-                <li><strong>Core Competencies:</strong> Object-Oriented Programming, Data Structures, Debugging, 
-                    JUnit Testing, Front-End Development</li>
-            </ul>
-        </section>
+            <h2>Skills 💻</h2>
 
-        <!-- EXPERIENCE -->
-        <section id="experience">
-            <h2>Experience </h2>
+            <div class="skills-container">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
 
-            <div class="exp">
-                <h3>Bartender</h3>
-                <ul>
-                    <li>Delivered strong service in a high-pressure environment</li>
-                    <li>Strengthened communication, teamwork, and multitasking</li>
-                    <li>Built transferable collaboration and problem-solving skills</li>
-                </ul>
-            </div>
+                <div class="skill-group">
+                    <h3>Software Tools / Frameworks</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>IntelliJ IDEA</li>
+                    </ul>
+                </div>
 
-            <div class="exp">
-                <h3>Server / Bartender</h3>
-                <ul>
-                    <li>Maintained accuracy under pressure</li>
-                    <li>Quickly adapted to new systems and workflows</li>
-                    <li>Developed user-focused thinking aligned with UX principles</li>
-                </ul>
-            </div>
-
-            <div class="exp">
-                <h3>Certified Nursing Assistant</h3>
-                <ul>
-                    <li>Maintained detailed records and followed strict procedures</li>
-                    <li>Gained attention to detail and dependability</li>
-                </ul>
-            </div>
-
-            <div class="exp">
-                <h3>Volunteer Tutor</h3>
-                <ul>
-                    <li>Supported students in understanding geometry concepts</li>
-                    <li>Improved communication and analytical reasoning</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- RESUME -->
-        <section id="resume">
-            <h2> Resume</h2>
-            <p><a href="#" target="_blank">Click here to view my Resume</a></p>
-        </section>
-
-        <!-- CONTACT -->
-        <section id="contact">
-            <h2>Contact </h2>
-            <p><strong>Email:</strong> <a href="mailto:VanessaSDumlao@gmail.com">VanessaSDumlao@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">My LinkedIn Profile</a></p>
-        </section>
-
-    </main>
-
-    <script src="script.js"></script>
-</body>
-</html>
+                <div class="skill-group">
+                    <h3>Core Competencies</h3>
+                    <ul>
+                        <li>Object-Oriented Programming</li>
+                        <li>Data Structures</li>
